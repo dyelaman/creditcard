@@ -4,6 +4,466 @@
 
 * {
   font-family: 'Inter', sans-serif !important;
+  color: #F5F5FF;
 }
 
+body {
+  background: #0F0F13;
+}
 
+header {
+  background: #0F0F13;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 24px;
+
+    .input {
+      position: relative;
+      margin-left: -700px;
+
+      input {
+        background: #000000;
+        border-radius: 5px;
+        border: none;
+        width: 480px;
+        height: 36px;
+        padding-left: 40px;
+      }
+
+      i {
+        position: absolute;
+        left: 13px;
+        top: 10px;
+      }
+    }
+
+
+    .header__end {
+      display: flex;
+      align-items: center;
+
+      .icons {
+        margin-right: 40px;
+
+        img {
+          margin-right: 24px;
+        }
+      }
+
+      .avatar {
+
+        img:nth-child(1) {
+          margin-right: 13px;
+        }
+      }
+    }
+  }
+}
+
+#overview {
+  background: black;
+  padding: 25px 224px;
+
+  .overview__tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+
+    .add {
+      display: flex;
+      align-items: center;
+
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-right: 24px;
+        line-height: 60px;
+      }
+
+      .wrapper {
+        display: flex;
+        padding: 9px 20px;
+        border: 2px solid #1E1E24;
+        border-radius: 6px;
+
+        img {
+          width: 18px;
+          height: 18px;
+          margin-right: 12px;
+        }
+
+        p {
+          font-weight: bold;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .popular {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .wrapper {
+        display: flex;
+        background: #1E1E24;
+        border-radius: 6px;
+        padding: 9px 20px;
+        margin-right: 8px;
+
+        p {
+          font-size: 16px;
+          font-weight: bold;
+          margin-right: 12px;
+        }
+
+        img {
+          width: 18px;
+          height: 18px;
+        }
+      }
+
+      .lighter__wrapper {
+        padding: 9px;
+        background: #1E1E24;
+        border-radius: 6px;
+
+        img {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  }
+
+  .overview__body {
+
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+
+      .purple {
+        box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.25);
+      }
+
+      .card {
+        position: relative;
+
+        .ninja {
+          position: absolute;
+          top: 85px;
+          left: 23px;
+
+          .number {
+            font-weight: 800;
+            font-size: 36px;
+            line-height: 35px;
+            margin-bottom: 54px;
+          }
+
+          .wrapper {
+            display: flex;
+            align-items: center;
+
+            .text {
+              font-size: 9px;
+              line-height: 11px;
+              margin-right: 10px;
+            }
+
+            .name {
+              font-weight: bold;
+              font-size: 12px;
+              line-height: 15px;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .overview__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+
+    .wrapper {
+
+      h3 {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #D0D0DA;
+      }
+
+      .number {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 35px;
+        color: #FFFFFF;
+        margin-top: 9px;
+        margin-bottom: 1px;
+
+        .increase {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 28px;
+          color: #15FFAB;
+        }
+
+        .decrease {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 28px;
+          color: #FD4438;
+        }
+      }
+
+      .text {
+        font-size: 14px;
+        line-height: 16px;
+        color: #5B5B65;
+      }
+    }
+  }
+}
+
+#fastpayment {
+  background: black;
+  padding: 30px 225px;
+  margin-top: 1px;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 18px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 16px;
+      border-radius: 100px;
+      background: #1E1E24;
+      padding: 10px 16px;
+
+      span {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+  }
+}
+
+#transactioncategories {
+  padding: 40px 225px 50px;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    .transaction {
+      width: 46%;
+
+      .transaction__tittle {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+
+        .tittle {
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 34px;
+        }
+
+        .arrows {
+
+          .leftarrow {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      .transaction__body {
+
+        .wrapper {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 22px;
+
+          .merits {
+            display: flex;
+
+            .image {
+              background: #000000;
+              border-radius: 8.72727px;
+              padding: 8px;
+              margin-right: 5px;
+
+              img {
+                width: 16px;
+                height: 16px;
+              }
+            }
+
+            .text {
+
+              .main {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+              }
+
+              .date {
+                font-size: 12px;
+                line-height: 16px;
+                color: #70707C;
+              }
+            }
+          }
+
+          .payment {
+            display: flex;
+
+            .image__second {
+              padding: 8px;
+              background: #3434db;
+              border-radius: 5px;
+              margin-right: 5px;
+            }
+
+            .image__third {
+              background: #423e3e;
+              border-radius: 5px;
+              margin-right: 5px;
+            }
+
+            .image__forth {
+              background: #766d6d;
+              border-radius: 5px;
+              margin-right: 5px;
+              padding: 8px;
+            }
+
+            .image {
+              padding: 8px;
+              background: #dc3838;
+              border-radius: 5px;
+              margin-right: 5px;
+            }
+
+            .text {
+
+              p {
+                font-size: 12px;
+                line-height: 16px;
+                color: #8A8A98;
+              }
+            }
+
+            .sum {
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 22px;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+
+    .categories {
+      width: 46%;
+
+      .categories__tittle {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        margin-bottom: 18px;
+      }
+
+      .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .chart {
+          padding: 24px 20px;
+          width: 183px;
+          height: 220px;
+          background: #000000;
+          border-radius: 12px;
+          position: relative;
+
+          .text {
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+            margin-bottom: 14px;
+          }
+
+          .sum {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 18px;
+            color: #FFFFFF;
+            margin-bottom: 9px;
+          }
+
+          .percent {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FD4438;
+          }
+
+          .percent__second {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+            color: #38FDB6;
+          }
+
+          .chart__first {
+            top: 135px;
+            position: absolute;
+            left: -43px;
+          }
+
+          .chart__second {
+            left: 12px;
+            position: absolute;
+            top: 106px;
+          }
+
+          .layout {
+            left: -56px;
+            position: absolute;
+            top: 142px;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background: black;
+
+  .text {
+    padding: 12px 225px;
+    font-size: 14px;
+    color: #5B5B65;
+    line-height: 16px;
+  }
+}
