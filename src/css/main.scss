@@ -338,19 +338,25 @@ header {
 
             .image__second {
               padding: 8px;
-              background: #3434db;
+              background: #2469EB;
+              box-shadow: 0px 27px 58px rgba(43, 83, 255, 0.21),
+              0px 11.28px 24.231px rgba(43, 83, 255, 0.150959),
+              0px 6.0308px 12.9551px rgba(43, 83, 255, 0.125183),
+              0px 3.38082px 7.2625px rgba(43, 83, 255, 0.105),
+              0px 1.79553px 3.85706px rgba(43, 83, 255, 0.0848175),
+              0px 0.747159px 1.60501px rgba(43, 83, 255, 0.0590406);
               border-radius: 5px;
               margin-right: 5px;
             }
 
             .image__third {
-              background: #423e3e;
+              background: #2C2C35;
               border-radius: 5px;
               margin-right: 5px;
             }
 
             .image__forth {
-              background: #766d6d;
+              background: #2C2C35;
               border-radius: 5px;
               margin-right: 5px;
               padding: 8px;
@@ -358,9 +364,17 @@ header {
 
             .image {
               padding: 8px;
-              background: #dc3838;
+              background: linear-gradient(61.26deg, #FF2B2B 11.27%, #F83939 105.25%);
+              box-shadow: 0px 27px 58px rgba(206, 21, 21, 0.16),
+              0px 11.28px 24.231px rgba(206, 21, 21, 0.115017),
+              0px 6.0308px 12.9551px rgba(206, 21, 21, 0.0953772),
+              0px 3.38082px 7.2625px rgba(206, 21, 21, 0.08),
+              0px 1.79553px 3.85706px rgba(206, 21, 21, 0.0646228),
+              0px 0.747159px 1.60501px rgba(206, 21, 21, 0.0449833);
+
               border-radius: 5px;
               margin-right: 5px;
+
             }
 
             .text {
